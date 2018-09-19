@@ -1,0 +1,40 @@
+/*
+ * Version: 2.1
+ * File Description: Place here your custom CSS styles
+ */
+
+ 
+#fullpage-menu li a {
+    color: #e1e1e1;
+    border-bottom: 1px solid transparent;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    padding: 28px 15px 27px 15px;
+    z-index: 102;
+    border: none;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: medium;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: medium;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+        #fullpage-menu li a {
+        background-color: #000000bf;
+        color: #e1e1e1;
+        border-bottom: 1px solid transparent;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+        font-size: 16px;
+        padding: 10px 10px 10px 10px;
+        z-index: 102;
+        border: none;
+        border-right: 1px solid transparent;
+        border-left: 1px solid transparent;
+        display: block;
+    }
+}
