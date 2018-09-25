@@ -15,6 +15,7 @@
 ?>
 
 <!DOCTYPE html>
+<html>
   <head>
     <meta charset="utf-8">
     <title>Redmond Farm | One Farm | Two Hotels | One Vision</title>
