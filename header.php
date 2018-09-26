@@ -48,6 +48,7 @@
     <link href="<?php echo get_template_directory_uri() ;?>/assets/css/animations.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() ;?>/assets/plugins/fullpage/jquery.fullpage.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() ;?>/assets/plugins/slick/slick.css" rel="stylesheet">
+    <link rel='stylesheet' id='wp-post-modal-css'  href='wp-content/plugins/wp-post-modal/public/css/wp-post-modal-public.css?ver=1.0.0' type='text/css' media='all' />
     <link href="<?php echo get_template_directory_uri() ;?>/assets/css/style.css" rel="stylesheet" >
     <!-- The Project's Typography CSS file, includes used fonts -->
     <link href="<?php echo get_template_directory_uri() ;?>/assets/css/typography-scheme-2.css" rel="stylesheet" >
@@ -55,7 +56,7 @@
     <link href="<?php echo get_template_directory_uri() ;?>/assets/css/skins/gold.css" rel="stylesheet">
     <!-- Custom css -->
     <link href="<?php echo get_template_directory_uri() ;?>/assets/css/custom.css" rel="stylesheet">
-    
+    <?php wp_head(); ?>
   </head>
 
   <!-- body classes:  -->
