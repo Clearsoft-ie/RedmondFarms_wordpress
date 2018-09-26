@@ -1251,6 +1251,13 @@
 			$("body,html").animate({scrollTop:0},800);
 		});
 
+		//Modal
+		//-----------------------------------------------
+		if($(".modal").length>0) {
+			$(".modal").each(function() {
+				$(".modal").prependTo( "body" );
+			});
+		}
 
 		// Pricing tables popovers
 		//-----------------------------------------------

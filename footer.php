@@ -24,7 +24,7 @@
             <div class="row">
               <div class="col-md-12">
                 <p class="text-center">Copyright © 2018. All rights reserved.</p>
-                <p class="text-center">Website by <a href="http://www.clearsoft.ie" target="_blank">ClearSoft</a></p>
+                <p class="text-center">Website by <a href="http://www.clearsoft.ie" target="_blank">ClearSoft</a> | <a class="modal-link" href="privacy-policy">Privacy</a> </p>
               </div>
             </div>
           </div>
@@ -63,6 +63,7 @@
     <script src="<?php echo get_template_directory_uri() ;?>/assets/js/contact.js"></script>
 
 
+        <?php wp_footer(); ?>
 
   </body>
 </html>
