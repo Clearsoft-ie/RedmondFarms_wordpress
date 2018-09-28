@@ -89,12 +89,11 @@ if(isset($_POST['action']) && $_POST['action'] == 'contact_send') {
 
 		$name = trim($_POST['name']);
     	$email = trim($_POST['email']);
-    	$subject = trim($_POST['subject']);
 	    $message = trim($_POST['message']);
 
 		$emailTo = $config['emailTo'];
 	    
-	    $subject = 'Redmond Farm Website - '.$subject;
+	    $subject = 'Redmond Farm Website - Enquiry';
 	    $body = "Name: $name \n\nEmail: $email \n\nMessage: $message";
 	    $headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
