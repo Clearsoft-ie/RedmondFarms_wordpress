@@ -152,5 +152,6 @@ a img.aligncenter {
 }
 
 #recap{
-	display: inline-block;
+    display: inline-block;
+    padding: 0;
 }
