@@ -4,7 +4,7 @@
  */
 
  
-#fullpage-menu li a {
+ #fullpage-menu li a {
     color: #e1e1e1;
     border-bottom: 1px solid transparent;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
@@ -149,4 +149,8 @@ a img.aligncenter {
 	width: auto;
 	z-index: 100000;
 	/* Above WP toolbar. */
+}
+
+#recap{
+	display: inline-block;
 }
